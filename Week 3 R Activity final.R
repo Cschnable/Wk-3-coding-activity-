@@ -66,7 +66,8 @@ library(tibble)
 
 #TASK: Run the next few lines of code and note the difference in what the lines return
 #Put your noted difference in a new comment below
-#
+#The "new women" table included the just_heght and just_weight variables as well as the height and weight variables. 
+#The "newwomen1" table had just weight and height as the variables.
 NewWomen<-tibble(HeightandWeight, height=Just_Height, weight=Just_Weight)
 NewWomen1<-tibble(height=Just_Height, weight=Just_Weight)
 View(NewWomen)
